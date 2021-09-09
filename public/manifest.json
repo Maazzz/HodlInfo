@@ -1,10 +1,13 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Maaz HodlInfo",
+  "name": "Maaz HodlInfo",
+  "description":"Welcome to Maaz HodlInfo",
+  "start_url": "https://maaz-hodlinfo.netlify.app/",
+  "scope": "/",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "https://hodlinfo.com/favicon.ico",
+      "sizes": "96x96",
       "type": "image/x-icon"
     },
     {
@@ -18,7 +21,6 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
