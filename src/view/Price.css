@@ -1,0 +1,122 @@
+.Price{
+    margin: 25px;
+    margin-top: -20px;
+    max-width: 100%;
+}
+.bestPrice{
+    color: #6B6C6E;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+    /* margin-bottom: -20px; */
+    margin-bottom: 0;
+}
+.prices{
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    justify-content: space-between;
+    /* margin-top: -40px; */
+    margin-top: -50px;
+}
+.prices>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.percent{
+    color: #36A4A2;
+    font-size: 42px;
+    margin-bottom: 0;
+}
+.time{
+    margin-top: 0;
+    color: #6B6C6E;
+    font-size: 22px;
+}
+.rup{
+    margin-top: -30px;
+}
+.rupees{
+    color: #f3ffff;
+    font-size: 75px;
+    margin-bottom: 0;
+}
+.rupeescap{
+    margin-top: 0;
+    color: #6B6C6E;
+    font-size: 17px;
+}
+.learn{
+    width: 100%;
+    margin-top: 20px;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+@media screen and (max-width: 980px) {
+    .percent{
+        font-size: 35px;
+    }
+    .time{
+        font-size: 17px;
+    }
+    .prices{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .bestPrice{
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    .rupees{
+        font-size: 55px;
+    }
+  }
+  @media screen and (max-width: 780px) {
+    .percent{
+        font-size: 25px;
+    }
+    .time{
+        font-size: 10px;
+    }
+    .bestPrice{
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    .rupees{
+        margin-top: 55px;
+        font-size: 35px;
+    }
+    .rupeescap{
+        font-size: 10px;
+    }
+  }
+  @media screen and (max-width: 580px) {
+    .Price{
+        margin: 0;
+    }
+    .percent{
+        font-size: 15px;
+    }
+    .prices{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .time{
+        font-size: 10px;
+    }
+    .bestPrice{
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    .rupees{
+        margin-top: 55px;
+        font-size: 20px;
+    }
+    .rupeescap{
+        font-size: 10px;
+    }
+  }

@@ -1,0 +1,22 @@
+.company{
+    display: flex;
+    justify-content: space-between;
+    color: #6B6C6E;
+    font-size: 11px;
+    margin: 0 20px
+}
+.copyright{
+    display: flex;
+}
+.copyright>p{
+    margin-right: 15px;
+}
+span{
+    cursor: pointer;
+}
+@media screen and (max-width: 660px) {
+    .company{
+        margin: 0 8px;
+        font-size: 7px;
+    }
+  }
